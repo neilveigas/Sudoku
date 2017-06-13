@@ -8,16 +8,16 @@ import java.util.Arrays;
  
 public class Sudoku 
 {
-    // The dimension of the game grid
+    // Dimension of the game grid
     public static final int SIZE = 9;
  
-    // The dimension of a subgrid
+    // Dimension of a subgrid
     public static final int SUBGRID = 3;
  
-    // The game grid
+    //current game grid
     public int[][] game;   
  
-    // The original game grid, unmodified by the player
+    // original game grid
     public int[][] originalGame; 
  
 
